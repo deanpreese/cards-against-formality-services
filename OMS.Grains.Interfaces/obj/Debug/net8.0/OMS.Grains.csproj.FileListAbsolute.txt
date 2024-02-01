@@ -1,0 +1,17 @@
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.csproj.AssemblyReference.cache
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.AssemblyInfoInputs.cache
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.AssemblyInfo.cs
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.csproj.CoreCompileInputs.cache
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Grains.deps.json
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Grains.dll
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Grains.pdb
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Models.dll
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Models.pdb
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.csproj.CopyComplete
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.dll
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/refint/OMS.Grains.dll
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.pdb
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/ref/OMS.Grains.dll
+/Users/dean/Documents/source/OMS/OMS.Grains/bin/Debug/net8.0/OMS.Grains.runtimeconfig.json
+/Users/dean/Documents/source/OMS/OMS.Grains/obj/Debug/net8.0/OMS.Grains.genruntimeconfig.cache

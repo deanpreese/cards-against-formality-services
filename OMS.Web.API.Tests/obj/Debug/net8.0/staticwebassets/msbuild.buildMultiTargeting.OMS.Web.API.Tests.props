@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/OMS.Web.API.Tests.props" />
+</Project>
