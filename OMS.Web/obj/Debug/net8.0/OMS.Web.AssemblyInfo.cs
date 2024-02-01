@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OMS.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f2e4befa7bada7520c80078ae6afcce25d173f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OMS.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OMS.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
