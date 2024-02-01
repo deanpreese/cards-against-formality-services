@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Data/OMS.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/OMS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/OMS.Core.csproj",
+        "projectName": "OMS.Core",
+        "projectPath": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/OMS.Core.csproj",
+        "packagesPath": "/Users/dean/.nuget/packages/",
+        "outputPath": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dean/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Core": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Data/OMS.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Data/OMS.Data.csproj",
+        "projectName": "OMS.Data",
+        "projectPath": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Data/OMS.Data.csproj",
+        "packagesPath": "/Users/dean/.nuget/packages/",
+        "outputPath": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dean/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/OMS.Core.csproj": {
+                "projectPath": "/Users/dean/Library/CloudStorage/Dropbox/OMS/OMS.Core/OMS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Features": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Features": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Scripting.Common": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "ThreadSafeDbContext": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

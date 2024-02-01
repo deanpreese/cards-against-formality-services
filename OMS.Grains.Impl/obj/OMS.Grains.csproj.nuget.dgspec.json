@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dean/Documents/source/OMS/OMS.Grains/OMS.Grains.csproj": {}
+  },
+  "projects": {
+    "/Users/dean/Documents/source/OMS/OMS.Grains/OMS.Grains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dean/Documents/source/OMS/OMS.Grains/OMS.Grains.csproj",
+        "projectName": "OMS.Grains",
+        "projectPath": "/Users/dean/Documents/source/OMS/OMS.Grains/OMS.Grains.csproj",
+        "packagesPath": "/Users/dean/.nuget/packages/",
+        "outputPath": "/Users/dean/Documents/source/OMS/OMS.Grains/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dean/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dean/Documents/source/OMS/OMS.Models/OMS.Models.csproj": {
+                "projectPath": "/Users/dean/Documents/source/OMS/OMS.Models/OMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Orleans.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Clustering.AdoNet": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.CodeGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Core": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Persistence.AdoNet": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Persistence.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Reminders": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Runtime": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "OrleansDashboard": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dean/Documents/source/OMS/OMS.Models/OMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dean/Documents/source/OMS/OMS.Models/OMS.Models.csproj",
+        "projectName": "OMS.Models",
+        "projectPath": "/Users/dean/Documents/source/OMS/OMS.Models/OMS.Models.csproj",
+        "packagesPath": "/Users/dean/.nuget/packages/",
+        "outputPath": "/Users/dean/Documents/source/OMS/OMS.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dean/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Orleans.CodeGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Core": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Serialization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
